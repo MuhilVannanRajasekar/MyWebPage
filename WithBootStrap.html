@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to BootStrap</title>
+    <link rel="stylesheet" href="WithBootStrap.css" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
+    <!-- Font Link -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style></style>
+  </head>
+  <body style="background-color: rgb(200, 210, 211)">
+    <div class="container-fluid">
+      <!-- Navbar for the webpage -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="download.jpg" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="images.png" alt="" />
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#about"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li><a class="dropdown-item" href="#about">About</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#about-team">About Team</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#about-me">About Me</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- -:Navbar complete:- -->
+    <div class="container" id="home">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="feature-box">
+              <h1>Welcome to My Webpage</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                facere vero odio tempora et asperiores ratione impedit? Animi,
+                est? Et minus numquam accusantium tempore ab, culpa accusamus
+                laudantium fugiat corporis.
+              </p>
+              <a href="#" class="btn" id="btn1">Read more</a>
+              <a href="#contact" class="btn" id="btn2">Contact us</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="photo-2.jpg" alt="" class="feature-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="photo-3.jpg" alt="" class="photo-img" />
+    </div>
+  </body>
+  <!-- Portfolio -->
+  <div class="container mt-3 pt-5" id="portfolio">
+    <div class="wrapper mb-3 pb-2">
+      <div class="row">
+        <h1>Portfolio</h1>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <!-- Card 1 -->
+            <div
+              class="card"
+              style="width: 18rem; border-bottom: 8px solid turquoise"
+            >
+              <img src="photo-14.jpg" class="card-img-top p-2" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Nature</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fuga, obcaecati!
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <!-- Card 2 -->
+            <div
+              class="card"
+              style="width: 18rem; border-bottom: 8px solid turquoise"
+            >
+              <img src="photo-16.jpg" class="card-img-top p-2" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Travel</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Eveniet, atque.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <!-- Card 3 -->
+            <div
+              class="card"
+              style="width: 18rem; border-bottom: 8px solid turquoise"
+            >
+              <img src="photo-17.jpg" class="card-img-top p-2" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Reading</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Provident, molestias.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <!-- Card 4 -->
+            <div
+              class="card"
+              style="width: 18rem; border-bottom: 8px solid turquoise"
+            >
+              <img src="photo-19.jpg" class="card-img-top p-2" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Foodie</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Quaerat, ipsum.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <!-- Card 5 -->
+            <div
+              class="card"
+              style="width: 18rem; border-bottom: 8px solid turquoise"
+            >
+              <img src="photo-11.jpg" class="card-img-top p-2" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt, totam.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <!-- Card 6 -->
+            <div
+              class="card"
+              style="width: 18rem; border-bottom: 8px solid turquoise"
+            >
+              <img src="photo-20.jpg" class="card-img-top p-2" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Automobile</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Soluta, sint?
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About section -->
+  <div class="container" id="about">
+    <div class="wrapper">
+      <div class="row">
+        <h1>About Work</h1>
+        <div class="col-md-6">
+          <div class="feature-box">
+            <img src="photo-5.jpg" alt="" class="feature-img" />
+            <h1>Web Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              facere vero odio tempora et asperiores ratione impedit? Animi,
+              est? Et minus numquam accusantium tempore ab, culpa accusamus
+              laudantium fugiat corporis.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-box">
+            <img src="photo-6.jpg" alt="" class="feature-img" />
+            <h1>Interior design</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum
+              cumque illo. Deserunt adipisci amet quod suscipit repudiandae,
+              laudantium voluptas eius harum. Debitis odit nulla veritatis
+              sapiente. Ab error atque consequatur, enim, quo, itaque a id in
+              hic rerum commodi?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About team -->
+  <div class="container" id="about-team">
+    <div class="wrapper">
+      <h1>About Team</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="feature-box">
+            <h1>Namita</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              facere vero odio tempora et asperiores ratione impedit? Animi,
+              est? Et minus numquam accusantium tempore ab, culpa accusamus
+              laudantium fugiat corporis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+              voluptatem nisi id architecto, ipsa doloribus eum, perspiciatis
+              reprehenderit dolor eius est dolorum praesentium hic non fuga
+              delectus vel quaerat. Nisi.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-box">
+            <h1>Shikar Sexana</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum
+              cumque illo. Deserunt adipisci amet quod suscipit repudiandae,
+              laudantium voluptas eius harum. Debitis odit nulla veritatis
+              sapiente. Ab error atque consequatur, enim, quo, itaque a id in
+              hic rerum commodi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+              sapiente eius dolorem in non nihil numquam? Hic maiores est ex
+              facere esse asperiores, consequuntur eius dolore delectus iure!
+              Aut, corrupti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About team complete -->
+
+  <!-- About me -->
+  <div class="container" id="about-me">
+    <div class="wrapper">
+      <h1>About Me</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="feature-box">
+            <img src="photo-1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-box">
+            <h1>Muhilvannan Rajasekar</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab
+              tempore nisi. At sint, fugiat voluptatibus magni vero amet ex?
+              Odit fugit libero eveniet aliquam, aperiam inventore id reiciendis
+              eius consequatur, recusandae atque, nulla est?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              animi aut in, culpa dolorum similique autem labore deserunt
+              reprehenderit, beatae dolores quae nesciunt officia velit aliquam.
+              Nemo beatae saepe similique molestiae ducimus, quidem illum
+              repudiandae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About me completed -->
+  <!-- About section is completed -->
+
+  <!-- Contact -->
+  <div id="contact" class="container-fluid p-4">
+    <div class="container">
+      <div class="wrapper">
+        <h1>Contact Us</h1>
+        <h1>Let's be Friends</h1>
+        <div class="row pt-5">
+          <div class="col-md-3 med_link btn" href="#">
+            <div class="feature-box">
+              <div class="row">
+                <div class="feature-box align-items-center" style="align-items: center;">
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
+                    <h3 style="color: crimson" class="pt-2 m-0">LinkedIn</h3>
+                  </div>
+                  <div class="col-md-6 align-items-center" style="display: block;">
+                    <i class="fab fa-linkedin" style="color: aqua;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 med_link btn" href="#">
+            <div class="feature-box">
+              <div class="row">
+                <div class="feature-box align-items-center" style="align-items: center;">
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
+                    <h3 style="color: crimson" class="pt-2 m-0">Github</h3>
+                  </div>
+                  <div class="col-md-6 align-items-center" style="display: block;">
+                    <i class="fab fa-github" style="color: aqua;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 btn" href="#">
+            <div class="feature-box">
+              <div class="row">
+                <div class="feature-box align-items-center" style="align-items: center;">
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
+                    <h3 style="color: crimson" class="pt-2 m-0">Instagram</h3>
+                  </div>
+                  <div class="col-md-6 align-items-center" style="display: block;">
+                    <i class="fab fa-instagram" style="color: aqua;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 med_link btn" href="#">
+            <div class="feature-box">
+              <div class="row">
+                <div class="feature-box align-items-center" style="align-items: center;">
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
+                    <h3 style="color: crimson" class="pt-2 m-0">E-mail</h3>
+                  </div>
+                  <div class="col-md-6 align-items-center" style="display: block;">
+                    <i class="fas fa-envelope" style="color: aqua;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container-fluid" id="footer">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="feature-box">
+              <h3>Portfolio</h3>
+              <p><li>Nature</li></p>
+              <p><li>Travel</li></p>
+              <p><li>Reading</li></p>
+              <p><li>Foodie</li></p>
+              <p><li>Automobile</li></p>
+              <p><li>Web Design</li></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-box">
+              <h3>About</h3>
+              <p><li>About Work</li></p>
+              <p><li>About Team</li></p>
+              <p><li>About Me</li></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-box">
+              <h3>Contact:-</h3>
+              <form action="" method="get">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">E-mail:- </label><br>
+                <input type="email" id="email" name="email"><br><br>
+                Enter your address:<br>  
+                <textarea rows="2" cols="20"></textarea><br><br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-muted text-center py-3 mt-5">
+      <h6>Copyright & copy; 2020 | <a href="#">Muhilvannan Rajasekar</a></h6>
+    </div>
+  </footer>
+</body>
+</html>
