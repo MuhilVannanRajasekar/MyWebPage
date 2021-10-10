@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to BootStrap</title>
+    <!-- External CSS -->
     <link rel="stylesheet" href="WithBootStrap.css" />
+    <!-- fa-fa font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -15,6 +18,13 @@
     <script src="https://kit.fontawesome.com/996973c893.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="WithBootStrap.js">
     <style></style>
   </head>
   <body style="background-color: rgb(200, 210, 211)">
@@ -35,7 +45,7 @@
             <img src="images.png" alt="" />
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto" style="--bs-scroll-height: 100px">
+            <ul class="navbar-nav me-auto text-right" style="--bs-scroll-height: 100px">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home"
                   >Home</a
@@ -58,6 +68,7 @@
                 <ul
                   class="dropdown-menu"
                   aria-labelledby="navbarScrollingDropdown"
+                  style="background: rgb(200, 210, 211);"
                 >
                   <li><a class="dropdown-item" href="#about">About</a></li>
                   <li>
@@ -100,6 +111,9 @@
                 est? Et minus numquam accusantium tempore ab, culpa accusamus
                 laudantium fugiat corporis.
               </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, libero nam optio fugit praesentium cum. Eius consequuntur deserunt magnam ea ipsum dignissimos necessitatibus perferendis porro doloribus numquam laudantium nobis totam dolorem provident sunt temporibus fuga dicta, iste sapiente amet distinctio ullam eos. Sit, fugiat veritatis!
+              </p>
               <a href="#" class="btn" id="btn1">Read more</a>
               <a href="#contact" class="btn" id="btn2">Contact us</a>
             </div>
@@ -132,8 +146,8 @@
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Fuga, obcaecati!
-                </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </p><br><br>
+                <a href="#" class="btn btn-primary">More</a>
               </div>
             </div>
           </div>
@@ -151,8 +165,8 @@
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Eveniet, atque.
-                </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </p><br>
+                <a href="#" class="btn btn-primary">More</a>
               </div>
             </div>
           </div>
@@ -171,7 +185,7 @@
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident, molestias.
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <a href="#" class="btn btn-primary">More</a>
               </div>
             </div>
           </div>
@@ -190,7 +204,7 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Quaerat, ipsum.
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <a href="#" class="btn btn-primary">More</a>
               </div>
             </div>
           </div>
@@ -209,7 +223,7 @@
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Deserunt, totam.
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <a href="#" class="btn btn-primary">More</a>
               </div>
             </div>
           </div>
@@ -228,7 +242,7 @@
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Soluta, sint?
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <a href="#" class="btn btn-primary">More</a>
               </div>
             </div>
           </div>
@@ -236,7 +250,11 @@
       </div>
     </div>
   </div>
+  <div>
+    <img src="photo-3.jpg" alt="" class="photo-img" id="img" />
+  </div>
   <!-- About section -->
+  <!-- About Work -->
   <div class="container" id="about">
     <div class="wrapper">
       <div class="row">
@@ -269,7 +287,7 @@
       </div>
     </div>
   </div>
-
+  <!-- About Work completed -->
   <!-- About team -->
   <div class="container" id="about-team">
     <div class="wrapper">
@@ -350,7 +368,7 @@
   <!-- About section is completed -->
 
   <!-- Contact -->
-  <div id="contact" class="container-fluid p-4">
+  <div id="contact" class="container-fluid">
     <div class="container">
       <div class="wrapper">
         <h1>Contact Us</h1>
@@ -360,11 +378,10 @@
             <div class="feature-box">
               <div class="row">
                 <div class="feature-box align-items-center" style="align-items: center;">
-                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
-                    <h3 style="color: crimson" class="pt-2 m-0">LinkedIn</h3>
-                  </div>
-                  <div class="col-md-6 align-items-center" style="display: block;">
-                    <i class="fab fa-linkedin" style="color: aqua;"></i>
+                  <div class="col-md-6 d-flex align-items-center" style="display: inline-block;width: 200px;">
+                    <h3 style="color: crimson;float: right; width:400px; padding: 5px;" class="pt-2 m-0">LinkedIn
+                    <i class="fab fa-linkedin" style="color: salmon;float: right;padding: 5px;margin-left: 30px;"></i>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -374,11 +391,10 @@
             <div class="feature-box">
               <div class="row">
                 <div class="feature-box align-items-center" style="align-items: center;">
-                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
-                    <h3 style="color: crimson" class="pt-2 m-0">Github</h3>
-                  </div>
-                  <div class="col-md-6 align-items-center" style="display: block;">
-                    <i class="fab fa-github" style="color: aqua;"></i>
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;width:200px;">
+                    <h3 style="color: crimson;float: right; width:400px; padding: 5px;" class="pt-2 m-0">Github
+                    <i class="fab fa-github" style="color: salmon;float: right;padding: 5px;margin-left: 30px;"></i>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -388,11 +404,10 @@
             <div class="feature-box">
               <div class="row">
                 <div class="feature-box align-items-center" style="align-items: center;">
-                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
-                    <h3 style="color: crimson" class="pt-2 m-0">Instagram</h3>
-                  </div>
-                  <div class="col-md-6 align-items-center" style="display: block;">
-                    <i class="fab fa-instagram" style="color: aqua;"></i>
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;width:200px;">
+                    <h3 style="color: crimson;float: right; width:400px; padding: 5px;" class="pt-2 m-0">Instagram
+                      <i class="fa fa-instagram" style="color:salmon;float: right;padding: 5px;margin-left: 25px;"></i>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -402,11 +417,10 @@
             <div class="feature-box">
               <div class="row">
                 <div class="feature-box align-items-center" style="align-items: center;">
-                  <div class="col-md-6 d-flex align-items-center" style="display: block;">
-                    <h3 style="color: crimson" class="pt-2 m-0">E-mail</h3>
-                  </div>
-                  <div class="col-md-6 align-items-center" style="display: block;">
-                    <i class="fas fa-envelope" style="color: aqua;"></i>
+                  <div class="col-md-6 d-flex align-items-center" style="display: block;width:200px;">
+                    <h3 style="color: crimson;float: right; width:400px; padding: 5px;" class="pt-2 m-0">E-mail
+                      <i class="fas fa-envelope" style="color: salmon; float: right;padding: 5px;margin-left: 30px;"></i>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -416,7 +430,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Contact finished -->
   <!-- footer -->
   <footer>
     <div class="container-fluid" id="footer">
@@ -443,17 +457,17 @@
           </div>
           <div class="col-md-4">
             <div class="feature-box">
-              <h3>Contact:-</h3>
+              <h3>Be a part of us <br> Contact:-</h3>
               <form action="" method="get">
-                <label for="fname">First name:</label><br>
+                <label for="fname">First name :-</label><br>
                 <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label><br>
+                <label for="lname">Last name  :-</label><br>
                 <input type="text" id="lname" name="lname"><br><br>
-                <label for="email">E-mail:- </label><br>
+                <label for="email">E-mail     :-</label><br>
                 <input type="email" id="email" name="email"><br><br>
-                Enter your address:<br>  
+                <label for="address"> Enter your address:-</label><br>  
                 <textarea rows="2" cols="20"></textarea><br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="col-md-4">
               </form>
             </div>
           </div>
