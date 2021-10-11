@@ -100,3 +100,47 @@ html{
     padding: 5px;
     margin: 20px;
 }
+
+        .popup-overlay {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+        }
+
+        .popup-content {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+        }
+
+        button {
+            display: inline-block;
+            vertical-align: middle;
+            /* margin: .20rem; */
+            padding: 7px;
+            border: 1px solid #666666;
+            font-size: 1rem;
+            color: #666666;
+            background: rgb(200, 210, 211);
+        }
+
+        button:hover {
+            border: 1px solid #666666;
+            background: #666666;
+            color: #ffffff;
+        }
