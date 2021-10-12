@@ -131,16 +131,181 @@ html{
         button {
             display: inline-block;
             vertical-align: middle;
-            /* margin: .20rem; */
-            padding: 7px;
-            border: 1px solid #666666;
+            border-radius: 30px;
+            margin: .20rem;
             font-size: 1rem;
             color: #666666;
             background: rgb(200, 210, 211);
+            border: 1px solid #666666;
         }
 
         button:hover {
             border: 1px solid #666666;
             background: #666666;
             color: #ffffff;
+        }
+        .popup-overlay-1 {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay-1.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+            z-index: 5;
+        }
+
+        .popup-content-1 {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content-1.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+        }
+
+        .popup-overlay-2 {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay-2.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+            z-index: 5;
+        }
+
+        .popup-content-2 {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content-2.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+        }
+
+        .popup-overlay-3 {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay-3.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+            z-index: 4;
+        }
+
+        .popup-content-3 {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content-3.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+        }
+
+        .popup-overlay-4 {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay-4.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+        }
+
+        .popup-content-4 {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content-4.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+        }
+
+        .popup-overlay-5 {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay-5.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .popup-content-5 {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content-5.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
+        }
+
+        .popup-overlay-6 {
+            /*Hides pop-up when there is no "active" class*/
+            visibility: hidden;
+            position: absolute;
+            background: rgb(200, 210, 211);
+            border: 3px solid #666666;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+        }
+
+        .popup-overlay-6.active {
+            /*displays pop-up when "active" class is present*/
+            visibility: visible;
+            text-align: center;
+        }
+
+        .popup-content-6 {
+            /*Hides pop-up content when there is no "active" class */
+            visibility: hidden;
+        }
+
+        .popup-content-6.active {
+            /*Shows pop-up content when "active" class is present */
+            visibility: visible;
         }

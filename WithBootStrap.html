@@ -235,7 +235,28 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fuga, obcaecati!
               </p><br><br>
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primar open-2">More</a><!--Creates the popup body-->
+              <div class="popup-overlay-2">
+                  <!--Creates the popup content-->
+                  <div class="popup-content-2">
+                      <h2>More</h2>
+                      <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      <button class="close-2">Close</button>
+                      </p>
+                      <!--popup's close button-->
+                  </div>
+              </div>
+              <script>
+                  //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                  $(".open-2").on("click", function () {
+                      $(".popup-overlay-2, .popup-content-2").addClass("active");
+                  });
+          
+                  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+                  $(".close-2, .popup-overlay-2").on("click", function () {
+                      $(".popup-overlay-2, .popup-content-2").removeClass("active");
+                  });
+              </script>
             </div>
           </div>
         </div>
@@ -251,7 +272,28 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Eveniet, atque.
               </p><br>
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primary open-1">More</a><!--Creates the popup body-->
+              <div class="popup-overlay-1">
+                  <!--Creates the popup content-->
+                  <div class="popup-content-1">
+                      <h2>More</h2>
+                      <p> Lorem, ipsum dolor sit amet consectetur adipisicing.  <br>
+                      <button class="close-1">Close</button>
+                      </p>
+                      <!--popup's close button-->
+                  </div>
+              </div>
+              <script>
+                  //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                  $(".open-1").on("click", function () {
+                      $(".popup-overlay-1, .popup-content-1").addClass("active");
+                  });
+          
+                  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+                  $(".close-1, .popup-overlay-1").on("click", function () {
+                      $(".popup-overlay-1, .popup-content-1").removeClass("active");
+                  });
+              </script>
             </div>
           </div>
         </div>
@@ -267,7 +309,29 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident, molestias.
               </p>
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primary open-3">More</a><!--Creates the popup body-->
+              <div class="popup-overlay-3">
+                  <!--Creates the popup content-->
+                  <div class="popup-content-3">
+                      <h2>More</h2>
+                      <p> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure. <br>
+                        <button class="close-3">Close</button>
+                      </p>
+                      <!--popup's close button-->
+                  </div>
+              </div>
+              <script>
+                  //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                  $(".open-3").on("click", function () {
+                      $(".popup-overlay-3, .popup-content-3").addClass("active");
+                  });
+          
+                  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+                  $(".close-3, .popup-overlay-3").on("click", function () {
+                      $(".popup-overlay-3, .popup-content-3").removeClass("active");
+                  });
+              </script>
             </div>
           </div>
         </div>
@@ -283,7 +347,29 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Quaerat, ipsum.
               </p>
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primary open-4">More</a><!--Creates the popup body-->
+              <div class="popup-overlay-4">
+                  <!--Creates the popup content-->
+                  <div class="popup-content-4">
+                      <h2>Pop-Up</h2>
+                      <p> 
+                        This is an example pop-up that you can make using jQuery. <br>
+                      <button class="close-4">Close</button>
+                      </p>
+                      <!--popup's close button-->
+                  </div>
+              </div>
+              <script>
+                  //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                  $(".open-4").on("click", function () {
+                      $(".popup-overlay-4, .popup-content-4").addClass("active");
+                  });
+          
+                  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+                  $(".close-4, .popup-overlay-4").on("click", function () {
+                      $(".popup-overlay-4, .popup-content-4").removeClass("active");
+                  });
+              </script>
             </div>
           </div>
         </div>
@@ -299,7 +385,28 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Deserunt, totam.
               </p>
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primary open-5">More</a><!--Creates the popup body-->
+              <div class="popup-overlay-5">
+                  <!--Creates the popup content-->
+                  <div class="popup-content-5">
+                      <h2>More</h2>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>
+                        <button class="close-5">Close</button>
+                      </p>
+                      <!--popup's close button-->
+                  </div>
+              </div>
+              <script>
+                  //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                  $(".open-5").on("click", function () {
+                      $(".popup-overlay-5, .popup-content-5").addClass("active");
+                  });
+          
+                  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+                  $(".close-5, .popup-overlay-5").on("click", function () {
+                      $(".popup-overlay-5, .popup-content-5").removeClass("active");
+                  });
+              </script>
             </div>
           </div>
         </div>
@@ -315,7 +422,28 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Soluta, sint?
               </p>
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primary open-6">More</a><!--Creates the popup body-->
+              <div class="popup-overlay-6">
+                  <!--Creates the popup content-->
+                  <div class="popup-content-6">
+                      <h2>More</h2>
+                      <p> Lorem, ipsum dolor sit amet consectetur adipisicing. <br>
+                        <button class="close-6">Close</button>
+                      </p>
+                      <!--popup's close button-->
+                  </div>
+              </div>
+              <script>
+                  //appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+                  $(".open-6").on("click", function () {
+                      $(".popup-overlay-6, .popup-content-6").addClass("active");
+                  });
+          
+                  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+                  $(".close-6, .popup-overlay-5").on("click", function () {
+                      $(".popup-overlay-6, .popup-content-6").removeClass("active");
+                  });
+              </script>
             </div>
           </div>
         </div>
